@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <title>DSHAGUI</title>
+  </head>
+  <body>
+<!-- Portfolio designed and developed by Diego Salvador Hernández Aguilar -->
+
+    <!-- nav -->
+<div class="container-fluid container-xxl  overflow-hidden">
+  <nav class="navbar navbar-expand-sm fixed-bottom helvetica-Med">
+    <progress max="100" value="0"></progress>
+    <div class="container-fluid">
+      <span class="navbar-brand green-yel d-flex flex-column pb-0 pt-0 pt-md-1" 
+          > <a class="acronim text-decoration-none" href="#home">DSHAGUI</a> <a class=" full-name text-decoration-none" href="#home">
+            Diego Salvador Hernández Aguilar</a
+          ></span
+        >
+
+        <button
+          class="navbar-toggler green-yel"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            >
+            <i class="fas fa-bars green-yel"></i
+          >
+        </span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active blue" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link blue" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item dropdown dropup">
+              <a
+                class="nav-link dropdown-toggle blue"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#skillset">Skillset</a></li>
+                <li><a class="dropdown-item" href="#about-me">About me</a></li>
+                <li><a class="dropdown-item" href="#contact-me">Contact me</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="https://docs.google.com/document/d/1J9HbBhhtGq2-W0yN5yEoAgIicbHsHLrUcg40LNQkyJI/export?format=pdf" target="_blank">Resume</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >DEV <i class="fa fa-heart"></i></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+  <header class="row " id="home">
+
+    <!-- image slider -->
+
+    <div class="col-12">    
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel"  >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+          <div class="col-12 col-md-6 fw-bold justify-content-center d-flex align-items-center flex-column " >
+            <div class="name-wrap d-flex flex-column gotham-rounded green-yel">
+              <span class="name ">Diego</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  fw-bold justify-content-center d-flex align-items-center flex-column  ">
+            <div class="name-wrap d-flex flex-column green-yel"></div>
+            <span class="name gotham-rounded text-white">Hernández</span>
+          </div>
+          </div>
+            <div class="social-media d-flex justify-content-center mt-3">
+              <span><a href="https://github.com/Diegodsha" target="_blank"><i class="fab fa-github text-white display-6 px-2"></i></a></span>
+              <span><a href="https://www.linkedin.com/in/diegoshdezaguilar/" target="_blank"><i class="fab fa-linkedin-in text-white display-6 px-2"></i></a></span>
+              <span><a href="https://twitter.com/diegohdezchimo" target="_blank"><i class="fab fa-twitter text-white display-6 px-2"></i></a></span>
+               <!-- <span><a href="http://" target="_blank">reserved for another social media</a></span>  -->
+            </div>
+          </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-12 col-md-6 fw-bold justify-content-center d-flex align-items-center flex-column" >
+            <div class="name-wrap d-flex flex-column gotham-rounded green-yel">
+              <span class="developer ">Developer</span>
+            </div>
+             
+          </div>
+          <div class="col-12 col-md-6 d-flex flex-column justify-content-start justify-content-md-center header-text text-white gotham-rounded">
+            <!-- <span class="career blue" >Web developer</span> -->
+            <span class="description fw-bold text-center"
+              >I enjoy doing teamwork for the creation, enhancement, and
+              deployment of cool and innovative projects.</span
+            >
+          </div>
+          <div class="social-media d-flex justify-content-center mt-3">
+            <span><a href="https://github.com/Diegodsha" target="_blank"><i class="fab fa-github text-white display-6 px-2"></i></a></span>
+            <span><a href="https://www.linkedin.com/in/diegoshdezaguilar/" target="_blank"><i class="fab fa-linkedin-in text-white display-6 px-2"></i></a></span>
+            <span><a href="https://twitter.com/diegohdezchimo" target="_blank"><i class="fab fa-twitter text-white display-6 px-2"></i></a></span>
+            <!-- <span><a href="http://" target="_blank">reserved for another social media</a></span> -->
+          </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+
+          
+            <div class="col-12 fw-bold justify-content-center d-flex align-items-center flex-column" >
+            <div class="name-wrap d-flex flex-column gotham-rounded green-yel">
+              <span class="prog-qt text-center fw-bold">Programming is not for solving problems is for creating solutions</span>
+              
+            </div>
+          </div>
+          <!-- <div class="col-12 col-md-6 d-flex flex-column justify-content-start justify-content-md-center header-text text-white gotham-rounded">
+            <span class="career blue" >Web developer</span>
+            <span class="description blue"
+              >I enjoy doing teamwork for the creation, enhancement, and
+              deployment of cool and innovative projects.</span
+            >
+          </div> -->
+          </div>
+          <div class="social-media d-flex justify-content-center mt-3">
+            <span><a href="https://github.com/Diegodsha" target="_blank"><i class="fab fa-github text-white display-6 px-2"></i></a></span>
+            <span><a href="https://www.linkedin.com/in/diegoshdezaguilar/" target="_blank"><i class="fab fa-linkedin-in text-white display-6 px-2"></i></a></span>
+            <span><a href="https://twitter.com/diegohdezchimo" target="_blank"><i class="fab fa-twitter text-white display-6 px-2"></i></a></span>
+            <!-- <span><a href="http://" target="_blank">reserved for another social media</a></span> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+    <div class="container-fluid container-xxl main-cont overflow-hidden px-4">
+
+      <hr class="text-white mt-5 " />
+      <h2 class="text-center section-title"><span class="fw-bold gotham-rounded section-span text-white">My projects</span></h2>
+      <hr class="text-white mb-5 "/>
+      <section class="row projects" id="projects">
+
+        <!-- SYMo -->
+        <div class="col-12 col-md-6 colcard d-flex justify-content-center">
+          <div class="card bg-dark text-white mt-4 mb-4">
+            <img
+              src="/assets/newsdesk.png"
+              class="card-img position-relative"
+              alt="Newsweek-desktop"
+            />
+            <div class="card-img-overlay d-flex flex-column helvetica-Med overflow-hidden">
+              <h5 class="card-title fw-bold text-center projectsinfo projectsinfo1">Project title</h5>
+              <p class="card-text fw-bold text-center projectsinfo projectsinfo1">
+                <span class="tech badge rounded-pill">HTML</span><span class="tech mx-2 badge rounded-pill">SASS</span><span class="tech badge rounded-pill">Bootstrap</span>
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn text-white position-absolute btn-abs align-self-center no-focus btn-blue projectsbtn projectsbtn1"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+              <i class="fas fa-info-circle pe-2"></i>See project details
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade text-white"
+                id="staticBackdrop"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <div class="modal-header bg-dark d-flex justify-content-center position-relative">
+                      <h5 class="modal-title" id="staticBackdropLabel">
+                        Project title
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close btn-close-white position-absolute"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body bg-dark">
+                      <div class="row">
+                        <div
+                          class="col-12 col-md-6 mb-4 mb-md-0 modal-mock d-flex justify-content-center"
+                          
+                        >
+                        
+                            <img
+                            alt=""
+                            src="/assets/newstablet.png"
+                            class="mobile-view"
+                            />
+                            
+                            <!-- <p>
+                            This
+                            <a
+                              href="#"
+                              role="button"
+                              class="btn btn-secondary popover-test"
+                              title="Popover title"
+                              data-bs-content="Popover body content is set in this attribute."
+                              >button</a
+                            >
+                            triggers a popover on click.
+                          </p> -->
+                        </div>
+                        <div class="col-12 col-md-6 modal-mock d-flex justify-content-center">
+                          <img class="mobile-view " src="/assets/newsphone.png"></img>
+                          <!-- <img
+                            class="img-fluid w-100"
+                            src="/assets/newsphone.png"
+                            alt=""
+                            srcset=""
+                          /> -->
+                        </div>
+                      </div>
+                      <hr />
+
+                      <p class="text-center">Project description</p>
+                    </div>
+
+                    <div
+                      class="modal-footer bg-dark d-flex justify-content-center"
+                    >
+                      <button type="button" class="btn no-focus btn-green">
+                        <a
+                          class="text-decoration-none "
+                          href="https://diegodsha.github.io/Newsweek-Bootstrap/"
+                          target="_blank"
+                        >
+                        <i class="fas fa-eye"></i>
+                          Live Demo</a
+                        >
+                      </button>
+                      <button
+                        type="button"
+                        class="btn no-focus btn-blue"
+                      >
+                        <a
+                          class="text-decoration-none "
+                          href="https://github.com/Diegodsha/Newsweek-Bootstrap"
+                          target="_blank"
+                        >
+                        <i class="fas fa-code-branch"></i>
+                          Source code</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Motorshop -->
+        <div class="col-12 col-md-6 colcard d-flex justify-content-center">
+          <div class="card bg-dark text-white mt-4 mb-4">
+            <img
+              src="/assets/newsdesk.png"
+              class="card-img position-relative"
+              alt="Newsweek-desktop"
+            />
+            <div class="card-img-overlay d-flex flex-column helvetica-Med overflow-hidden">
+              <h5 class="card-title fw-bold text-center projectsinfo projectsinfo2">Project title</h5>
+              <p class="card-text fw-bold text-center projectsinfo projectsinfo2">
+                <span class="tech badge rounded-pill">HTML</span><span class="tech mx-2 badge rounded-pill">SASS</span><span class="tech badge rounded-pill">Bootstrap</span>
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn text-white position-absolute btn-abs align-self-center no-focus btn-blue projectsbtn projectsbtn2"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+              <i class="fas fa-info-circle pe-2"></i>See project details
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade text-white"
+                id="staticBackdrop"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <div class="modal-header bg-dark d-flex justify-content-center position-relative">
+                      <h5 class="modal-title" id="staticBackdropLabel">
+                        Project title
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close btn-close-white position-absolute"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body bg-dark">
+                      <div class="row">
+                        <div
+                          class="col-12 col-md-6 mb-4 mb-md-0 modal-mock d-flex justify-content-center"
+                          
+                        >
+                        
+                            <img
+                            alt=""
+                            src="/assets/newstablet.png"
+                            class="mobile-view"
+                            />
+                            
+                            <!-- <p>
+                            This
+                            <a
+                              href="#"
+                              role="button"
+                              class="btn btn-secondary popover-test"
+                              title="Popover title"
+                              data-bs-content="Popover body content is set in this attribute."
+                              >button</a
+                            >
+                            triggers a popover on click.
+                          </p> -->
+                        </div>
+                        <div class="col-12 col-md-6 modal-mock d-flex justify-content-center">
+                          <img class="mobile-view " src="/assets/newsphone.png"></img>
+                          <!-- <img
+                            class="img-fluid w-100"
+                            src="/assets/newsphone.png"
+                            alt=""
+                            srcset=""
+                          /> -->
+                        </div>
+                      </div>
+                      <hr />
+
+                      <p class="text-center">Project description</p>
+                    </div>
+
+                    <div
+                      class="modal-footer bg-dark d-flex justify-content-center"
+                    >
+                      <button type="button" class="btn no-focus btn-green">
+                        <a
+                          class="text-decoration-none "
+                          href="https://diegodsha.github.io/Newsweek-Bootstrap/"
+                          target="_blank"
+                        >
+                        <i class="fas fa-eye"></i>
+                          Live Demo</a
+                        >
+                      </button>
+                      <button
+                        type="button"
+                        class="btn no-focus btn-blue"
+                      >
+                        <a
+                          class="text-decoration-none "
+                          href="https://github.com/Diegodsha/Newsweek-Bootstrap"
+                          target="_blank"
+                        >
+                        <i class="fas fa-code-branch"></i>
+                          Source code</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- news week -->
+        <div class="col-12 col-md-6 colcard d-flex justify-content-center">
+          <div class="card bg-dark text-white mt-4 mb-4">
+            <img
+              src="/assets/newsdesk.png"
+              class="card-img position-relative"
+              alt="Newsweek-desktop"
+            />
+            <div class="card-img-overlay d-flex flex-column helvetica-Med overflow-hidden">
+              <h5 class="card-title fw-bold text-center projectsinfo projectsinfo3">Project title</h5>
+              <p class="card-text fw-bold text-center projectsinfo projectsinfo3">
+                <span class="tech badge rounded-pill">HTML</span><span class="tech mx-2 badge rounded-pill">SASS</span><span class="tech badge rounded-pill">Bootstrap</span>
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn text-white position-absolute btn-abs align-self-center no-focus btn-blue projectsbtn projectsbtn3"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+              <i class="fas fa-info-circle pe-2"></i>See project details
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade text-white"
+                id="staticBackdrop"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <div class="modal-header bg-dark d-flex justify-content-center position-relative">
+                      <h5 class="modal-title" id="staticBackdropLabel">
+                        Project title
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close btn-close-white position-absolute"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body bg-dark">
+                      <div class="row">
+                        <div
+                          class="col-12 col-md-6 mb-4 mb-md-0 modal-mock d-flex justify-content-center"
+                          
+                        >
+                        
+                            <img
+                            alt=""
+                            src="/assets/newstablet.png"
+                            class="mobile-view"
+                            />
+                            
+                            <!-- <p>
+                            This
+                            <a
+                              href="#"
+                              role="button"
+                              class="btn btn-secondary popover-test"
+                              title="Popover title"
+                              data-bs-content="Popover body content is set in this attribute."
+                              >button</a
+                            >
+                            triggers a popover on click.
+                          </p> -->
+                        </div>
+                        <div class="col-12 col-md-6 modal-mock d-flex justify-content-center">
+                          <img class="mobile-view " src="/assets/newsphone.png"></img>
+                          <!-- <img
+                            class="img-fluid w-100"
+                            src="/assets/newsphone.png"
+                            alt=""
+                            srcset=""
+                          /> -->
+                        </div>
+                      </div>
+                      <hr />
+
+                      <p class="text-center">Project description</p>
+                    </div>
+
+                    <div
+                      class="modal-footer bg-dark d-flex justify-content-center"
+                    >
+                      <button type="button" class="btn no-focus btn-green">
+                        <a
+                          class="text-decoration-none "
+                          href="https://diegodsha.github.io/Newsweek-Bootstrap/"
+                          target="_blank"
+                        >
+                        <i class="fas fa-eye"></i>
+                          Live Demo</a
+                        >
+                      </button>
+                      <button
+                        type="button"
+                        class="btn no-focus btn-blue"
+                      >
+                        <a
+                          class="text-decoration-none "
+                          href="https://github.com/Diegodsha/Newsweek-Bootstrap"
+                          target="_blank"
+                        >
+                        <i class="fas fa-code-branch"></i>
+                          Source code</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </section>
+      <hr class="text-white mt-5 " />
+      <h2 class="text-center skill"><span class="fw-bold gotham-rounded text-white">Skillset</span></h2>
+      <hr class="text-white mb-5 "/>
+      <section class="row projects" id="skillset">
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-1" src="/assets/html.svg" alt="html5" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-2" src="/assets/css.svg" alt="css" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-3" src="/assets/bs.svg" alt="bootstrap" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-4" src="/assets/sass-1.svg" alt="sass" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-5" src="/assets/logo-javascript.svg" alt="js" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-6" src="/assets/react-2.svg" alt="react" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-7" src="/assets/jquery.svg" alt="jquery" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-8" src="/assets/ruby.svg" alt="ruby" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-9" src="/assets/rails-1.svg" alt="rails" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-10" src="/assets/git-icon.svg" alt="git" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-11" src="/assets/terminal-1.svg" alt="terminal" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-12" src="/assets/gsap-greensock.svg" alt="gsap" ></div>
+      </section>
+      <hr class="text-white mt-5 " />
+      <h2 class="text-center about"><span class="fw-bold gotham-rounded about text-white">About </span><span class="fw-bold gotham-rounded me text-white">me</span></h2>
+      <hr class="text-white mb-5 "/>
+      <section class="row projects position-relative" id="about-me">
+
+
+          <video class="my-3 " width="400" autoplay muted loop>
+            <source src="/assets/codin2g.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+          </video>
+            <div class="about-t position-absolute text-white d-flex flex-column about-text align-items-center pt-4 align-self-center text-center justify-content-between">
+              <span class="about-text-1 gotham-rounded fw-bold"> I enjoy learning new technologies</span><span class="about-text-2 gotham-rounded">Always trying to challenge myself</span><q class="about-text-3 gotham-rounded ">Programming is the breaking of one big impossible task into several very small possible tasks. </q>
+            </div>
+            
+
+      </section>
+      <hr class="text-white mt-5 " />
+      <h2 class="text-center section-title"><span class="fw-bold gotham-rounded section-span contact text-white">Contact me</span></h2>
+      <hr class="text-white mb-5 "/>
+
+      <section class="row projects " id="contact-me">
+        <div class="col-12 justify-content-center d-flex align-items-center flex-column">
+       <span class="gotham-rounded text-white contact-text-1 text-center">Interested in collaborating?</span>
+    <a class="my-3 email-link" href="https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;to=diegodsha@hotmail.com&amp;body=Hello%20Diego%20your%20next%20salary%20will%20be%20200k&su=I%20want%20to%20hire%20you!" target="_blank"> <button class="btn btn-green btn-lg email ">
+      Send me an Email
+    </button></a>
+    <div class="text-white text-center mt-3">
+    <div class="riddle d-flex flex-column p-2 mb-5">
+      <span class="gotham-rounded fw-bold my-3">Riddle: Say my name</span>
+      <span class="gotham-bold my-3 text-decoration-underline">What disappears as soon as you say its name? </span>
+    </div>
+      <span class="gotham-rounded fw-bold">Include the correct answer in the email :)</span>
+    </div>
+        </div>
+      </section>
+      <h2 class="text-center section-title"><span class="fw-bold gotham-rounded section-span contact text-white"></span></h2>
+      <footer class="footer projects row">
+        <div class="col-12 d-flex justify-content-center ">
+          <small class="text-white gotham-rounded align-items-center d-flex">
+            <span>Designed and developed by</span><a class="text-decoration-none mx-1 " href="mailto:diegodsha@hotmail.com">Diego</a><span>&copy; All rights reserved.</span>
+          </small>
+        </div>
+
+      </footer>
+    </div>
+
+    <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js" integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q==" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
