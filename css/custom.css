@@ -10318,12 +10318,12 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-  background: linear-gradient(to left, #00b4d8, #25ce7b, #eae151);
+  background: linear-gradient(to left, #00b4d8, #41c9e4, #eae151, #eae151);
   background-attachment: fixed;
 }
 
 progress::-moz-progress-bar {
-  background: linear-gradient(to left, #00b4d8 #25ce7b, #eae151);
+  background: linear-gradient(to left, #00b4d8, #41c9e4, #eae151, #eae151);
   background-attachment: fixed;
 }
 
@@ -10473,7 +10473,6 @@ nav .fa-heart {
 
 header {
   background-image: url(/assets/land6.jpg);
-  background-color: #b2afab;
   background-position: center center;
   background-size: cover;
   min-height: 100vh;
@@ -10537,7 +10536,7 @@ header .social-media a:hover {
 
 /* projects */
 .projects {
-  background: #181919;
+  background: #0b0b0b;
   border-radius: 10px;
   box-shadow: 4px 3px 11px #000000;
 }
@@ -10622,6 +10621,7 @@ header .social-media a:hover {
   max-width: 100%;
   height: 100%;
   border-radius: 1em;
+  box-shadow: 4px 3px 11px #000;
 }
 
 /*skillset*/

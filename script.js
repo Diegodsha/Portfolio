@@ -29,17 +29,6 @@ t1.from(
 );
 
 t1.from(
-  ".career",
-  {
-    x: "30%",
-    opacity: 0,
-    duration: 2,
-    ease: "elastic",
-  },
-  "-=1.5"
-);
-
-t1.from(
   ".description",
   {
     x: "30%",
