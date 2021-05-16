@@ -1,4 +1,4 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import '../node_modules/bootstrap/scss/bootstrap';
 
 $color-yellow: #eae151;
 
@@ -201,12 +201,9 @@ nav {
     color: #2c2c2c;
     &:hover {
       color: #eae151;
+      text-shadow: 2px 2px 2px black;
     }
   }
-}
-
-.projectsbtn:hover {
-  cursor: zoom-in;
 }
 
 .btn-green {
@@ -221,6 +218,7 @@ nav {
     color: #2c2c2c;
     &:hover {
       color: #52d7f1;
+      text-shadow: 2px 2px 2px black;
     }
   }
 }
@@ -278,16 +276,16 @@ header {
     top: -42px;
     position: relative;
   }
+}
 
-  .social-media {
-    a {
-      display: inline-block;
-      transform: translatey(0px);
-      &:hover {
-        text-shadow: 2px 0 2px #000;
-        transform: translatey(-5px);
-        transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1);
-      }
+.social-media {
+  a {
+    display: inline-block;
+    transform: translatey(0px);
+    &:hover {
+      text-shadow: 2px 0 2px #000;
+      transform: translatey(-5px);
+      transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1);
     }
   }
 }
@@ -322,7 +320,7 @@ header {
   }
 
   .card-text {
-    text-shadow: 2px 2px 2px black;
+    @extend .card-title;
   }
 
   .card-img-overlay {
@@ -338,6 +336,12 @@ header {
   }
 }
 
+.projectsbtn {
+  text-shadow: 2px 2px 2px black;
+  &:hover {
+    cursor: zoom-in;
+  }
+}
 .tech {
   border: 1px solid white;
   box-shadow: 2px 3px 4px black;
@@ -366,6 +370,10 @@ header {
       -ms-transform: scale(1.2) rotate(360deg);
       -o-transform: scale(1.2) rotate(360deg);
       transform: scale(1.2) rotate(360deg);
+    }
+
+    &:focus {
+      box-shadow: none;
     }
   }
 
@@ -403,6 +411,7 @@ header {
 
 .svg-skill {
   width: 7rem;
+  height: 7.9rem;
   border-radius: 1em;
   box-shadow: 4px 3px 11px #000;
   animation-name: float;
