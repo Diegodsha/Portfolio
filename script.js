@@ -11,33 +11,86 @@ gsap.to("progress", {
 // header
 
 t1.from("header", {
-  y: "-30%",
+  y: "-70%",
   opacity: 0,
-  duration: 2,
+  duration:4,
   ease: Power4.easeOut, //'elastic'
-});
+},
+);
 
 t1.from(
   " .name-wrap",
   {
-    y: "-30%",
+    x: "-30%",
     opacity: 0,
     duration: 2,
     ease: Power4.easeOut, //'elastic'
   },
-  "-=1.5"
+  "-=.9"
 );
 
 t1.from(
-  ".description",
+  ".lastname",
   {
     x: "30%",
     opacity: 0,
     duration: 2,
     ease: Power4.easeOut, //'elastic'
   },
-  "-=1.5"
+  "-=1"
 );
+t1.from(
+  " .fa-github",
+  {
+    y: "100%",
+    opacity: 1,
+    duration: .7,
+    // stagger:2,
+    ease:'elastic'
+  },
+  '-=1.3'
+);
+t1.from(
+  " .fa-linkedin-in",
+  {
+    y: "100%",
+    opacity: 1,
+    duration: .7,
+    ease:'elastic'
+  },
+  '-=1.2'
+);
+t1.from(
+  " .fa-twitter",
+  {
+    y: "100%",
+    opacity: 1,
+    duration: .7,
+    ease:'elastic'
+  },
+  '-=1.1'
+);
+t1.from(
+  " .fa-medium",
+  {
+    y: "100%",
+    opacity: 1,
+    duration: .7,
+    ease:'elastic'
+  },
+  '-=.9'
+);
+t1.from(
+  " .fa-angellist",
+  {
+    y: "100%",
+    opacity: 1,
+    duration: .7,
+    ease:'elastic'
+  },
+  '-=.8'
+);
+
 
 t1.from(
   " nav",
@@ -47,8 +100,9 @@ t1.from(
     duration: 2,
     ease: Power4.easeOut, //'elastic'
   },
-  "-=1.5"
+  "-=.7"
 );
+
 
 gsap.from(".projectsinfo1", {
   scrollTrigger: {
@@ -86,6 +140,18 @@ gsap.from(".projectsinfo3", {
   stagger: 0.3,
 });
 
+gsap.from(".projectsinfo4", {
+  scrollTrigger: {
+    trigger: ".projectsinfo4",
+    start: "bottom bottom",
+    toggleActions: "restart none restart none",
+  },
+  y: -50,
+  opacity: 1,
+  duration: 1.2,
+  stagger: 0.3,
+});
+
 gsap.from(".projectsbtn1", {
   scrollTrigger: {
     trigger: ".projectsbtn1",
@@ -113,6 +179,18 @@ gsap.from(".projectsbtn2", {
 gsap.from(".projectsbtn3", {
   scrollTrigger: {
     trigger: ".projectsbtn3",
+    start: "top bottom ",
+    toggleActions: "restart none restart none",
+  },
+  y: 50,
+  opacity: 0,
+  duration: 1.2,
+  stagger: 0.3,
+});
+
+gsap.from(".projectsbtn4", {
+  scrollTrigger: {
+    trigger: ".projectsbtn4",
     start: "top bottom ",
     toggleActions: "restart none restart none",
   },
@@ -163,12 +241,13 @@ gsap.from("#about-me", {
 gsap.from(".email", {
   scrollTrigger: {
     trigger: ".email",
-    start: " bottom bottom",
+    start: "top 100%",
+    // markers: true,
     toggleActions: "restart none none none",
   },
   y: -500,
   opacity: 0,
-  //   duration: 4,
+    duration: 2,
   ease: Bounce.easeOut,
 });
 
