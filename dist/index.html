@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Diego Salvador Hernández Aguilar">
+    <meta name="image" property="og:image" content="https://dshagui.com./assets/portfolio-og.png">
+    <meta name="description" property="og:description" content="Personal portfolio with projects, skills, and contact section">
+    <meta property=”og:url” content=”https://dshagui.com/” />
+    <!-- Twitter tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://dshagui.com./assets/portfolio-og.png">
+    <meta name="twitter:description" content="Personal portfolio with projects, skills, and contact section">
+    <meta property=”twitter:url” content=”https://dshagui.com/” />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="./css/custom.css" /> -->
+    <title>DSHAGUI</title>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GC76R32B6B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-GC76R32B6B');
+    </script>
+  <script defer src="bundle.js"></script></head>
+  <body>
+<!-- Portfolio designed and developed by Diego Salvador Hernández Aguilar -->
+<div class="container-fluid container-xxl  overflow-hidden">
+  <!-- nav -->
+  <nav class="navbar navbar-expand-sm fixed-bottom helvetica-Med">
+    <progress max="100" value="0"></progress>
+    <div class="container-fluid">
+      <span class="navbar-brand green-yel d-flex flex-column pb-0 pt-0 pt-md-1" 
+          > <a class="acronim text-decoration-none" href="#home">DSHAGUI</a> <a class=" full-name text-decoration-none" href="#home">
+            Diego Salvador Hernández Aguilar</a
+          ></span
+        >
+        <button
+          class="navbar-toggler green-yel"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            >
+            <i class="fas fa-bars green-yel"></i
+          >
+        </span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active blue" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link blue" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item dropdown dropup">
+              <a
+                class="nav-link dropdown-toggle blue"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#skillset">Skillset</a></li>
+                <li><a class="dropdown-item" href="#about-me">About me</a></li>
+                <li><a class="dropdown-item" href="#contact-me">Contact me</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="https://docs.google.com/document/d/1KVsLT3d538dmBQZywC1rdGGOiEniddpCTQCxzKehoas/export?format=pdf" target="_blank">Get my resume</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >DEV <i class="fa fa-heart"></i></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+  <header class="row " id="home">
+    <!-- image slider -->
+    <div class="col-12">    
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="7000" >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+          <div class="col-12 col-md-6 fw-bold justify-content-center d-flex align-items-center flex-column " >
+            <div class="name-wrap d-flex flex-column gotham-rounded green-yel">
+              <span class="name ">Diego</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  fw-bold justify-content-center d-flex align-items-center flex-column  ">
+            <div class="name-wrap d-flex flex-column green-yel"></div>
+            <span class="name lastname gotham-rounded text-white">Hernández</span>
+          </div>
+          </div>
+            <div class="social-media d-flex justify-content-center mt-3">
+              <span><a href="https://github.com/Diegodsha" target="_blank"><i class="fab fa-github text-white display-6 px-2"></i></a></span>
+              <span><a href="https://www.linkedin.com/in/diegoshdezaguilar/" target="_blank"><i class="fab fa-linkedin-in text-white display-6 px-2"></i></a></span>
+              <span><a href="https://twitter.com/diegohdezchimo" target="_blank"><i class="fab fa-twitter text-white display-6 px-2"></i></a></span>
+              <span><a href="https://diegoshagui.medium.com/" target="_blank"><i class="fab fa-medium text-white display-6 px-2"></i></a></span> 
+              <span><a href="https://angel.co/u/diegoshdezaguilar" target="_blank"><i class="fab fa-angellist text-white display-6 px-2"></i></a></span>
+            </div>
+          </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-12 col-md-6 fw-bold justify-content-center d-flex align-items-center flex-column" >
+            <div class="name-wrap d-flex flex-column gotham-rounded green-yel">
+              <span class="developer ">Developer</span>
+            </div>
+             
+          </div>
+          <div class="col-12 col-md-6 d-flex flex-column justify-content-start justify-content-md-center header-text text-white gotham-rounded">
+            <!-- <span class="career blue" >Web developer</span> -->
+            <span class="description fw-bold text-center"
+              >I enjoy doing work as a team for the creation, enhancement, and
+              deployment of cool and innovative solutions.</span
+            >
+          </div>
+          <!-- <div class="social-media d-flex justify-content-center mt-3">
+            <span><a href="https://github.com/Diegodsha" target="_blank"><i class="fab fa-github text-white display-6 px-2"></i></a></span>
+            <span><a href="https://www.linkedin.com/in/diegoshdezaguilar/" target="_blank"><i class="fab fa-linkedin-in text-white display-6 px-2"></i></a></span>
+            <span><a href="https://twitter.com/diegohdezchimo" target="_blank"><i class="fab fa-twitter text-white display-6 px-2"></i></a></span>
+            <span><a href="https://diegoshagui.medium.com/" target="_blank"><i class="fab fa-medium text-white display-6 px-2"></i></a></span> 
+            <span><a href="https://angel.co/u/diegoshdezaguilar" target="_blank"><i class="fab fa-angellist text-white display-6 px-2"></i></a></span>
+          </div> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-12 fw-bold justify-content-center d-flex align-items-center flex-column" >
+            <div class="name-wrap d-flex flex-column gotham-rounded green-yel">
+              <span class="prog-qt text-center fw-bold">Programming is not for solving problems, it's for creating solutions.</span>
+              
+            </div>
+          </div>
+          </div>
+          <!-- <div class="social-media d-flex justify-content-center mt-3">
+            <span><a href="https://github.com/Diegodsha" target="_blank"><i class="fab fa-github text-white display-6 px-2"></i></a></span>
+            <span><a href="https://www.linkedin.com/in/diegoshdezaguilar/" target="_blank"><i class="fab fa-linkedin-in text-white display-6 px-2"></i></a></span>
+            <span><a href="https://twitter.com/diegohdezchimo" target="_blank"><i class="fab fa-twitter text-white display-6 px-2"></i></a></span>
+            <span><a href="https://diegoshagui.medium.com/" target="_blank"><i class="fab fa-medium text-white display-6 px-2"></i></a></span> 
+              <span><a href="https://angel.co/u/diegoshdezaguilar" target="_blank"><i class="fab fa-angellist text-white display-6 px-2"></i></a></span>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+    <div class="container-fluid container-xxl main-cont overflow-hidden px-4">
+
+      <hr class="text-white mt-5 " />
+      <h2 class="text-center section-title"><span class="fw-bold gotham-rounded section-span text-white">My projects</span></h2>
+      <hr class="text-white mb-5 "/>
+      <section class="row projects" id="projects">
+
+        <!-- SYMo -->
+        <div class="col-12 col-md-6 colcard d-flex justify-content-center">
+          <div class="card bg-dark text-white mt-4 mb-4">
+            <img
+              src="a9ab3fd87520bbaad7ee.png"
+              class="card-img position-relative"
+              alt="symo-home"
+            />
+            <div class="card-img-overlay d-flex flex-column helvetica-Med overflow-hidden">
+              <h5 class="card-title fw-bold text-center projectsinfo projectsinfo1">Save Your Money</h5>
+              <p class="card-text fw-bold text-center projectsinfo projectsinfo1">
+                <span class="tech badge user-select-none rounded-pill">Ruby on Rails</span><span class="tech badge user-select-none rounded-pill ms-2 mb-2">Cloudinary</span><span class="tech mx-2 badge user-select-none rounded-pill">SASS</span><span class="tech badge user-select-none rounded-pill">Bootstrap</span><span class="ms-2 tech badge user-select-none rounded-pill mb-2">PostgresQL</span><span class="ms-2 tech badge user-select-none rounded-pill mb-2">Rspec</span>
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn text-white position-absolute btn-abs align-self-center no-focus btn-blue projectsbtn projectsbtn1"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop1"
+              >
+              <i class="fas fa-info-circle pe-2"></i>See project details
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade text-white"
+                id="staticBackdrop1"
+                tabindex="-1"
+                aria-labelledby="staticBackdrop1Label"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <div class="modal-header bg-dark d-flex justify-content-center position-relative">
+                      <h5 class="modal-title" id="staticBackdrop1Label">
+                        Save Your Money
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close btn-close-white position-absolute"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body bg-dark">
+                      <div class="row">
+                        <div
+                          class="col-12 col-md-6 mb-4 mb-md-0 modal-mock d-flex justify-content-center"
+                          
+                        >
+                        
+                            <img
+                            alt="symo-userprofile"
+                            src="cd491e82aaa91e46a12a.png"
+                            class="mobile-view"
+                            />
+                        </div>
+                        <div class="col-12 col-md-6 modal-mock d-flex justify-content-center">
+                          <img class="mobile-view " alt="symo-groups" src="d69a9b5a017268ea48ce.png"></img>
+                          <!-- <img
+                            class="img-fluid w-100"
+                            src="./assets/newsphone.png"
+                            alt=""
+                            srcset=""
+                          /> -->
+                        </div>
+                      </div>
+                      <hr />
+
+                      <p class="text-center">Expense management app that lets you save money by having better control over your expenses grouping and organizing them in one place. (Create an account with no image and get a smile on your face).</p>
+                    </div>
+
+                    <div
+                      class="modal-footer bg-dark d-flex justify-content-center"
+                    >
+                      <button type="button" class="btn no-focus btn-green">
+                        <a
+                          class="text-decoration-none "
+                          href="https://symoney.herokuapp.com/log"
+                          target="_blank"
+                        >
+                        <i class="fas fa-eye"></i>
+                          Live Demo</a
+                        >
+                      </button>
+                      <button
+                        type="button"
+                        class="btn no-focus btn-blue"
+                      >
+                        <a
+                          class="text-decoration-none "
+                          href="https://github.com/Diegodsha/Save-Your-Money"
+                          target="_blank"
+                        >
+                        <i class="fas fa-code-branch"></i>
+                          Source code</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Flappy owl -->
+        <div class="col-12 col-md-6 colcard d-flex justify-content-center">
+          <div class="card bg-dark text-white mt-4 mb-4">
+            <img
+              src="96105226e5f8ff5c9e51.png"
+              class="card-img position-relative"
+              alt="Newsweek-desktop"
+            />
+            <div class="card-img-overlay d-flex flex-column helvetica-Med overflow-hidden">
+              <h5 class="card-title fw-bold text-center projectsinfo projectsinfo3">Flappy owl</h5>
+              <p class="card-text fw-bold text-center projectsinfo projectsinfo3">
+                <span class="tech badge user-select-none rounded-pill">Phaser 3</span><span class="ms-2 tech badge user-select-none rounded-pill">Webpack 5</span><span class="ms-2 tech badge user-select-none rounded-pill mb-2">Javascript (ES6)</span><span class="ms-2 tech badge user-select-none rounded-pill mb-2">JEST</span><span class="ms-2 tech badge user-select-none rounded-pill mb-2">Microverse API</span>
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn text-white position-absolute btn-abs align-self-center no-focus btn-blue projectsbtn projectsbtn3"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop3"
+              >
+              <i class="fas fa-info-circle pe-2"></i>See project details
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade text-white"
+                id="staticBackdrop3"
+                tabindex="-1"
+                aria-labelledby="staticBackdrop3Label"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <div class="modal-header bg-dark d-flex justify-content-center position-relative">
+                      <h5 class="modal-title" id="staticBackdrop3Label">
+                        Flappy owl
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close btn-close-white position-absolute"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body bg-dark">
+                      <div class="row">
+                        <div
+                          class="col-12 col-md-6 mb-4 mb-md-0 modal-mock d-flex justify-content-center"
+                          
+                        >
+                        
+                            <img
+                            alt=""
+                            src="e82b184d1587436070f5.png"
+                            class="mobile-view"
+                            />
+                        </div>
+                        <div class="col-12 col-md-6 modal-mock d-flex justify-content-center">
+                          <img class="mobile-view " src="ee1c49e6d3ef5723c052.png"></img>
+                        </div>
+                      </div>
+                      <hr />
+                      <p class="text-center">Game inspired by the fun and famous mobile game Flappy bird.
+                        You're an owl and your main goal is to collect as many coins as possible while you try to avoid a collision with any object
+to be part of the top ten best coin collectors, the coins appear between a gap that exists every time a top and bottom pipes appears,
+every time you collide with an object or fall down the game will finish and your score will be submitted against the other players
+try to beat the rank #1 owl and invite your friends to play.
+
+Every time you restart the game your owls color will change, there are 3 options (red, blue, yellow)
+                      </p>
+                    </div>
+                    <div
+                      class="modal-footer bg-dark d-flex justify-content-center"
+                    >
+                      <button type="button" class="btn no-focus btn-green">
+                        <a
+                          class="text-decoration-none "
+                          href="https://flappy-owl.netlify.app/"
+                          target="_blank"
+                        >
+                        <i class="fas fa-eye"></i>
+                          Live Demo</a
+                        >
+                      </button>
+                      <button
+                        type="button"
+                        class="btn no-focus btn-blue"
+                      >
+                        <a
+                          class="text-decoration-none "
+                          href="https://github.com/Diegodsha/Flappy-owl"
+                          target="_blank"
+                        >
+                        <i class="fas fa-code-branch"></i>
+                          Source code</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- HAYESER -->
+        <div class="col-12 col-md-6 colcard d-flex justify-content-center">
+          <div class="card bg-dark text-white mt-4 mb-4">
+            <img
+              src="e16e28f31795bd804a19.png"
+              class="card-img position-relative"
+              alt="app-desktop"
+              />
+            <div class="card-img-overlay d-flex flex-column helvetica-Med overflow-hidden">
+              <h5 class="card-title fw-bold text-center projectsinfo projectsinfo3">HAYESER</h5>
+              <p class="card-text fw-bold text-center projectsinfo projectsinfo4">
+                <span class="tech badge user-select-none rounded-pill">Javascript (ES6)</span><span class="ms-2 tech badge user-select-none rounded-pill">Webpack 5</span><span class="ms-2 tech badge user-select-none rounded-pill mb-2">Open weather API</span><span class="ms-2 tech badge user-select-none rounded-pill mb-2">Bootstrap</span>
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn text-white position-absolute btn-abs align-self-center no-focus btn-blue projectsbtn projectsbtn4"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop4"
+              >
+              <i class="fas fa-info-circle pe-2"></i>See project details
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade text-white"
+                id="staticBackdrop4"
+                tabindex="-1"
+                aria-labelledby="staticBackdrop4Label"
+                aria-hidden="true"
+              >
+              <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <div class="modal-header bg-dark d-flex justify-content-center position-relative">
+                      <h5 class="modal-title" id="staticBackdrop4Label">
+                        HAYESER
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close btn-close-white position-absolute"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                        ></button>
+                      </div>
+                      
+                      <div class="modal-body bg-dark">
+                        <div class="row">
+                          <div
+                          class="col-12 col-md-6 mb-4 mb-md-0 modal-mock d-flex justify-content-center"
+                          
+                        >
+                        
+                            <img
+                            alt="app-tablet"
+                            src="2f666dce767356a0fc00.png"
+                            class="mobile-view"
+                            />
+                        </div>
+                        <div class="col-12 col-md-6 modal-mock d-flex justify-content-center">
+                          <img class="mobile-view " alt="app-mobile" src="58e5aa5aa2484e0b718b.png"></img>
+                        </div>
+                      </div>
+                      <hr />
+                      <p class="text-center">Weather app with the forecast of over 200,000 countries.
+                        Name inspired by the song Have You ever Seen Rain by Creedence which makes this app
+a fun and useful tool to constantly check the weather forecast of your city or any other location.
+
+
+                      </p>
+                    </div>
+                    <div
+                    class="modal-footer bg-dark d-flex justify-content-center"
+                    >
+                    <button type="button" class="btn no-focus btn-green">
+                      <a
+                      class="text-decoration-none "
+                      href="https://hayeser.netlify.app/"
+                      target="_blank"
+                      >
+                      <i class="fas fa-eye"></i>
+                      Live Demo</a
+                      >
+                    </button>
+                    <button
+                    type="button"
+                        class="btn no-focus btn-blue"
+                      >
+                        <a
+                          class="text-decoration-none "
+                          href="https://github.com/Diegodsha/HAYESER"
+                          target="_blank"
+                        >
+                        <i class="fas fa-code-branch"></i>
+                        Source code</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Motorshop -->
+        <div class="col-12 col-md-6 colcard d-flex justify-content-center">
+          <div class="card bg-dark text-white mt-4 mb-4">
+            <img
+              src="f48978111a64148a7b1e.png"
+              class="card-img position-relative"
+              alt="motoshop-desk"
+            />
+            <div class="card-img-overlay d-flex flex-column helvetica-Med overflow-hidden">
+              <h5 class="card-title fw-bold text-center projectsinfo projectsinfo2">Motorshop</h5>
+              <p class="card-text fw-bold text-center projectsinfo projectsinfo2">
+                <span class="tech badge user-select-none rounded-pill mb-2">HTML5</span><span class="ms-2 tech badge user-select-none rounded-pill mb-2">CSS3</span><span class="ms-2 tech badge user-select-none rounded-pill mb-2">Bootstrap</span><span class="ms-2 tech badge user-select-none rounded-pill mb-2">Grid</span><span class="ms-2 tech badge user-select-none rounded-pill mb-2">Flexbox</span>
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn text-white position-absolute btn-abs align-self-center no-focus btn-blue projectsbtn projectsbtn2"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop2"
+              >
+              <i class="fas fa-info-circle pe-2"></i>See project details
+              </button>
+              <!-- Modal -->
+              <div
+                class="modal fade text-white"
+                id="staticBackdrop2"
+                tabindex="-1"
+                aria-labelledby="staticBackdrop2Label"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <div class="modal-header bg-dark d-flex justify-content-center position-relative">
+                      <h5 class="modal-title" id="staticBackdrop2Label">
+                        Motorshop
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close btn-close-white position-absolute"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body bg-dark">
+                      <div class="row">
+                        <div
+                          class="col-12 col-md-6 mb-4 mb-md-0 modal-mock d-flex justify-content-center"
+                          
+                        >
+                            <img
+                            alt="motoshop-tablet"
+                            src="d6b42294eda0b8ad7ba6.png"
+                            class="mobile-view"
+                            />
+                        </div>
+                        <div class="col-12 col-md-6 modal-mock d-flex justify-content-center">
+                          <img alt="motoshop-mobile" class="mobile-view " src="0cfa9d17eab1c830b58a.png"></img>
+                        </div>
+                      </div>
+                      <hr />
+                      <p class="text-center">Online shop for motorcycle accessories, search page included, fully responsive (Mobile, Tablet, Desktop), design based on client specifications.</p>
+                    </div>
+                    <div
+                      class="modal-footer bg-dark d-flex justify-content-center"
+                    >
+                      <button type="button" class="btn no-focus btn-green">
+                        <a
+                          class="text-decoration-none "
+                          href="https://diegodsha.github.io/Online-shop-for-motorcycle-accessories-/"
+                          target="_blank"
+                        >
+                        <i class="fas fa-eye"></i>
+                          Live Demo</a
+                        >
+                      </button>
+                      <button
+                        type="button"
+                        class="btn no-focus btn-blue"
+                      >
+                        <a
+                          class="text-decoration-none "
+                          href="https://github.com/Diegodsha/Online-shop-for-motorcycle-accessories-"
+                          target="_blank"
+                        >
+                        <i class="fas fa-code-branch"></i>
+                          Source code</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="text-white mt-5 " />
+      <h2 class="text-center skill"><span class="fw-bold gotham-rounded text-white">Skillset</span></h2>
+      <hr class="text-white mb-5 "/>
+      <section class="row projects" id="skillset">
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-1" src="86853290f9b7e1a97c02.svg" alt="html5" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-2" src="04527a5242638e48dab7.svg" alt="css" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-3" src="685c7094d468fdcbc597.svg" alt="bootstrap" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-4" src="8aa78a8393470431c803.svg" alt="sass" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-5" src="81ca5be30fb864f34f88.svg" alt="js" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-6" src="e68b35f4774979ae220b.svg" alt="react" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-7" src="088cde610879e936a15a.svg" alt="jquery" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-8" src="320ed4681bc48df897b0.svg" alt="ruby" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-9" src="05656c97e3e19a518d8d.svg" alt="rails" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-10" src="d97f183d8634886d3011.svg" alt="git" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-11" src="27218f5bfc88ec6520f6.svg" alt="terminal" ></div>
+        <div class="col-4 col-sm-3 d-flex justify-content-center p-4"><img class="svg-skill-12" src="dff87e2debbe5d374797.svg" alt="gsap" ></div>
+      </section>
+      <hr class="text-white mt-5 " />
+      <h2 class="text-center about"><span class="fw-bold gotham-rounded about text-white">About </span><span class="fw-bold gotham-rounded me text-white">me</span></h2>
+      <hr class="text-white mb-5 "/>
+      <section class="row projects position-relative" id="about-me">
+
+
+          <video class="my-3 " width="400" autoplay muted loop>
+            <source src="a26fecc40349c30db7c0.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+          </video>
+            <div class="about-t position-absolute text-white d-flex flex-column about-text align-items-center pt-4 align-self-center text-center justify-content-between">
+              <span class="about-text-1 gotham-rounded fw-bold"> I enjoy learning new technologies</span><span class="about-text-2 gotham-rounded">Always trying to challenge myself</span><q class="about-text-3 gotham-rounded ">Programming is the breaking of one big impossible task into several very small possible tasks. </q>
+            </div>
+            
+
+      </section>
+      <hr class="text-white mt-5 " />
+      <h2 class="text-center section-title"><span class="fw-bold gotham-rounded section-span contact text-white">Contact me</span></h2>
+      <hr class="text-white mb-5 "/>
+
+      <section class="row projects " id="contact-me">
+        <div class="col-12 justify-content-center d-flex align-items-center flex-column">
+       <span class="gotham-rounded text-white contact-text-1 text-center">Interested in collaborating?</span>
+       <button class="btn btn-green btn-lg email "> <a class="my-3 email-link" href="https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;to=diegodsha@hotmail.com&amp;body=Hello%20Diego%20let's%20build%20a%20cool%20project%20together&su=I%20want%20to%20hire%20you!" target="_blank">Send me an Email </a>
+      
+    </button>
+    <div class="text-white text-center mt-3">
+    <div class="riddle d-flex flex-column p-2 mb-5">
+      <span class="gotham-rounded fw-bold my-3">Riddle: Say my name</span>
+      <span class="gotham-bold my-3 text-decoration-underline">What disappears as soon as you say its name? </span>
+    </div>
+    <div class="social-media">
+
+      <span><a href="https://github.com/Diegodsha" target="_blank"><i class="fab fa-github text-white display-6 px-2"></i></a></span>
+      <span><a href="https://www.linkedin.com/in/diegoshdezaguilar/" target="_blank"><i class="fab fa-linkedin-in text-white display-6 px-2"></i></a></span>
+      <span><a href="https://twitter.com/diegohdezchimo" target="_blank"><i class="fab fa-twitter text-white display-6 px-2"></i></a></span>
+      <span><a href="https://diegoshagui.medium.com/" target="_blank"><i class="fab fa-medium text-white display-6 px-2"></i></a></span> 
+      <span><a href="https://angel.co/u/diegoshdezaguilar" target="_blank"><i class="fab fa-angellist text-white display-6 px-2"></i></a></span>
+    </div>
+    </div>
+        </div>
+      </section>
+      <h2 class="text-center section-title"><span class="fw-bold gotham-rounded section-span contact text-white"></span></h2>
+      <footer class="footer projects row">
+        <div class="col-12 d-flex justify-content-center ">
+          <small class="text-white gotham-rounded align-items-center d-flex">
+            <span>Designed and developed by</span><a class="text-decoration-none mx-1 text-white text-decoration-underline" href="mailto:diegodsha@hotmail.com">Diego</a><span>&copy; All rights reserved.</span>
+          </small>
+        </div>
+
+      </footer>
+    </div>
+
+    <!-- <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js" integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q==" crossorigin="anonymous"></script>
+    <!-- <script src="/script.js"></script> -->
+  </body>
+</html>
