@@ -529,12 +529,15 @@ video {
 
 .email {
   width: 21rem;
-height: 5rem;
-
-  &:hover {
-    color: #00b4d8;
-    transform: translatey(-5px);
-    transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1);
+  height: 5rem;
+  font-weight: 700;
+  // &:hover {
+  //   color: #00b4d8;
+  //   transform: translateY(-10px);
+  //   transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1);
+  // }
+  .email-link{
+    text-decoration: none;
   }
 }
 
