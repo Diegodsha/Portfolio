@@ -36,6 +36,9 @@ module.exports = {
       }
     ],
   },
+  devServer:{
+    port:9000,
+  },
   devtool: 'inline-source-map',
   plugins: [
     new HtmlWebpackPlugin({
