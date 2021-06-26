@@ -171,26 +171,26 @@ nav {
   background-color: #eae151;
   border: none;
 
-  transition: all 300ms ease;
+  /* transition: all 300ms ease; */
 }
-.btn-green2 {
+/* .btn-green2 {
   background-color: #eae151;
   border: none;
-}
+} */
 .btn-green:hover {
   background-color: #f3e964;
   box-shadow: inset 0px 0px 5px black;
   border-radius: 1rem;
-  transition: all 300ms ease;
+  /* transition: all 300ms ease; */
 }
 
 .btn-green a {
   color: #2c2c2c;
 }
 
-.btn-green2 a {
+/* .btn-green2 a {
   color: #2c2c2c;
-}
+} */
 
 /* header */
 .carousel {
@@ -314,13 +314,13 @@ header {
   text-shadow: 2px 2px 2px black;
   border-radius: 0.5rem;
   box-shadow: inset 0px 0px 3px 1px #084ca2;
-  transition: all 300ms ease;
+  /* transition: box-shadow,border-radius,text-shadow, 300ms ease; */
 }
 .projectsbtn:hover {
   box-shadow: inset 0px 0px 10px 1px #084ca2;
   border-radius: 1rem;
   cursor: zoom-in;
-  transition: all 300ms ease;
+  /* transition: box-shadow,border-radius,text-shadow, 300ms ease; */
 }
 .tech {
   border: 1px solid white;
@@ -598,7 +598,6 @@ video {
   width: 21rem;
   height: 5rem;
   font-weight: 700;
-  transition: all 0ms;
 }
 .email-link {
   text-decoration: none;
@@ -754,5 +753,8 @@ video {
 
   .about-t {
     font-size: 17px;
+  }
+  .social-media a {
+    text-shadow: 4px 2px 3px black;
   }
 }
