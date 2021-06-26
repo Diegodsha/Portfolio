@@ -310,7 +310,7 @@ header {
 .projectsbtn {
   text-shadow: 2px 2px 2px black;
   border-radius: 1rem;
-  box-shadow: 0px 0px 10px 1px black;
+  box-shadow: inset 0px 0px 10px 1px #084ca2;
 }
 .projectsbtn:hover {
   cursor: zoom-in;
