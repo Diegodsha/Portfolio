@@ -11,7 +11,7 @@ gsap.to("progress", {
 // header
 
 t1.from("header", {
-  y: "-70%",
+  y: "-100%",
   opacity: 0,
   duration:4,
   ease: Power4.easeOut, //'elastic'
