@@ -728,9 +728,9 @@ header {
     right: 0;
   }
 
-  .about-t {
-    font-size: 24px;
-  }
+  /* .about-t {
+    font-size: px;
+  } */
 }
 
 @media only screen and (max-width: 500px) {
@@ -753,7 +753,7 @@ header {
   }
 
   .about-t {
-    font-size: 17px;
+    font-size: 34px;
   }
 
   .email {
