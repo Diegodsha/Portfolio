@@ -63,11 +63,11 @@ nav {
   border-radius: 10px 10px 0 0;
   box-shadow: 1px -2px 17px #000;
   background-color: #0b0b0b;
-  position: fixed !important;
+  /* position: fixed !important;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1030;
+  z-index: 1030; */
   /* transform: translate3d(0, 0%, 0);
   transition: transform 2000ms ease-in-out; */
 }
