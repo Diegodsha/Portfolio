@@ -19,7 +19,11 @@ body {
 }
 
 .main-cont {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  /* position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column; */
 }
 
 .no-focus:focus {
@@ -29,7 +33,8 @@ body {
 /* navbar */
 
 progress {
-  position: absolute;
+  position: fixed;
+  z-index: 2000;
   bottom: 0;
   left: 0;
   -webkit-appearance: none;
@@ -58,6 +63,13 @@ nav {
   border-radius: 10px 10px 0 0;
   box-shadow: 1px -2px 17px #000;
   background-color: #0b0b0b;
+  position: fixed !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+  /* transform: translate3d(0, 0%, 0);
+  transition: transform 2000ms ease-in-out; */
 }
 
 .nav-link:hover {
@@ -314,9 +326,14 @@ header {
 }
 
 /* projects */
+
+#projects{
+  padding: 1.5rem;
+}
+
 .projects {
   background: #0b0b0b;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 .card {
@@ -617,6 +634,8 @@ header {
 
 #contact-me {
   height: 520px;
+  /* width: 100%;
+  margin-bottom: 50px; */
 }
 
 .email {
@@ -670,13 +689,21 @@ header {
 /* footer */
 
 .footer {
-  height: 40px;
+  height: 70px;
+  /* height: 200px;
+  background: #0b0b0b;
+  border-radius: 95.6rem / 18.1rem;
+  position: absolute;
+  bottom: 3.3%;
+  width: 100%; */
 
   /* // margin-bottom: 100px; */
 }
 
 .footer small {
-  font-size: 11px;
+  font-size: 12px;
+  /* position: absolute;
+  top: 13%; */
 }
 
 /* media queries */
@@ -759,4 +786,12 @@ header {
   .email {
     width: 100%;
   }
+
+  #projects{
+    padding: 0.5rem;
+  }
+  /* .footer small{
+    top: 10%;
+    font-size: 11px;
+  } */
 }

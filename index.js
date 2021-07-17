@@ -103,6 +103,21 @@ t1.from(
   "-=.7"
 );
 
+
+const showAnim = gsap.from('.navbar', { 
+  yPercent: 100,
+  paused: true,
+  duration: 0.5
+}).progress(1);
+
+ScrollTrigger.create({
+  start: "top top",
+  end: 99999,
+  onUpdate: (self) => {
+    self.direction === -1 ? showAnim.play() : showAnim.reverse()
+  }
+});
+
 // gsap.from(".projectsinfo6", {
 //   scrollTrigger: {
 //     trigger: ".projectsinfo6",
@@ -291,7 +306,7 @@ gsap.from("#about-me", {
 gsap.from(".email", {
   scrollTrigger: {
     trigger: ".email",
-    start: "top 100%",
+    start: "top 70%",
     // markers: true,
     toggleActions: "restart none none none",
   },
@@ -306,7 +321,7 @@ gsap.from(".email", {
 gsap.from(".skill", {
   scrollTrigger: {
     trigger: ".skill",
-    start: "bottom bottom",
+    start: "top bottom",
     toggleActions: "restart none restart none",
   },
   x: "30%",
@@ -533,7 +548,7 @@ t2.from(
 gsap.to(".contact", {
   scrollTrigger: {
     trigger: ".contact",
-    start: "bottom bottom",
+    start: "top bottom",
     toggleActions: "restart none restart none",
   },
   y: 0,
