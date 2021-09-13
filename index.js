@@ -118,6 +118,21 @@ ScrollTrigger.create({
   }
 });
 
+const showAnim2 = gsap.from('.btn-home', { 
+  xPercent: 200,
+  paused: true,
+  duration: 0.5,
+  opacity: 0,
+}).progress(0);
+
+ScrollTrigger.create({
+  start: "top top",
+  end: 99999,
+  onUpdate: (self) => {
+    self.direction === 1 ? showAnim2.play() : showAnim2.reverse()
+  }
+});
+
 // gsap.from(".projectsinfo6", {
 //   scrollTrigger: {
 //     trigger: ".projectsinfo6",
@@ -191,18 +206,17 @@ gsap.from(".projectsinfo5", {
   stagger: 0.3,
 });
 
-// gsap.from(".projectsbtn6", {
-//   scrollTrigger: {
-//     trigger: ".projectsbtn6",
-//     start: "top bottom ",
-//     toggleActions: "restart none restart none",
-//     // markers: true,
-//   },
-//   y: 50,
-//   opacity: 0,
-//   duration: 1.2,
-//   stagger: 0.3,
-// });
+gsap.from(".projectsinfo6", {
+  scrollTrigger: {
+    trigger: ".projectsinfo6",
+    start: "bottom bottom",
+    toggleActions: "restart none restart none",
+  },
+  y: -115,
+  opacity: 1,
+  duration: 1.2,
+  stagger: 0.3,
+});
 
 
 gsap.from(".projectsbtn1", {
@@ -256,6 +270,18 @@ gsap.from(".projectsbtn4", {
 gsap.from(".projectsbtn5", {
   scrollTrigger: {
     trigger: ".projectsbtn5",
+    start: "top bottom ",
+    toggleActions: "restart none restart none",
+  },
+  y: 50,
+  opacity: 0,
+  duration: 1.2,
+  stagger: 0.3,
+});
+
+gsap.from(".projectsbtn6", {
+  scrollTrigger: {
+    trigger: ".projectsbtn6",
     start: "top bottom ",
     toggleActions: "restart none restart none",
   },

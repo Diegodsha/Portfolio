@@ -18,8 +18,13 @@ body {
   background-attachment: fixed;
 }
 
+.header-cont{
+  max-width: 1600px;
+}
+
 .main-cont {
   margin-bottom: 50px;
+  max-width: 1600px;
   /* position: relative;
   display: flex;
   align-items: center;
@@ -30,13 +35,34 @@ body {
   box-shadow: none;
 }
 
+.btn-home {
+  width: 3rem;
+  height: 3rem;
+  background: transparent;
+  z-index: 1500;
+  position: fixed;
+  right: 3%;
+  bottom: 70px;
+  border: none;
+  box-shadow: 2px 2px 2px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-home a{
+  color: #eae151;
+  font-size: 3em;
+}
+
 /* navbar */
 
 progress {
-  position: fixed;
+  /* position: fixed;
   z-index: 2000;
   bottom: 0;
-  left: 0;
+  left: 0; */
+  z-index: 2000 !important;
   -webkit-appearance: none;
   appearance: none;
   width: 100%;
@@ -327,7 +353,7 @@ header {
 
 /* projects */
 
-#projects{
+#projects {
   padding: 1.5rem;
 }
 
@@ -787,7 +813,7 @@ header {
     width: 100%;
   }
 
-  #projects{
+  #projects {
     padding: 0.5rem;
   }
   /* .footer small{
